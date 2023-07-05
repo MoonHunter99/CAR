@@ -7,3 +7,5 @@ class Car:
         self.__speed += 5
     def brake(self):
         self.__speed -= 5
+    def get_speed(self):
+        print("The speed of the car is now", self.__speed)
