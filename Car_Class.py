@@ -5,3 +5,5 @@ class Car:
         self.__speed = speed
     def accelerate(self):
         self.__speed += 5
+    def brake(self):
+        self.__speed -= 5
